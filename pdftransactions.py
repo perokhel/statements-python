@@ -47,3 +47,4 @@ if __name__ == "__main__":
         date_lines = extract_date_lines(os.path.join(dir_path, path))
         for line in date_lines:
             print(line)
+
