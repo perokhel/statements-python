@@ -1,0 +1,199 @@
+{
+    "merchant": {
+        "reference": "M7Z"
+    },
+    "latestTrackingEvent": {
+        "on": "2024-04-17T03:44:04+10:00",
+        "location": "MELBOURNE AIRPORT VIC, 3045"
+    },
+    "articleCount": 1,
+    "articles": {
+        "href": "/consignment/v2/consignments/@UhcyXLoRP7hZI1rnzrB07huQecJCLvprdBbVO13g5uwvBH_kZmI\u003d?expand\u003darticles,events",
+        "items": [
+            {
+                "consignmentId": "UhcyXLoRP7hZI1rnzrB07huQecJCLvprdBbVO13g5uwvBH_kZmI\u003d",
+                "consignmentCode": "M7ZZ18447229",
+                "fullBarcode": null,
+                "shortBarcode": "3756M7ZZ1844722900393333042528103908",
+                "transitRoute": "Domestic",
+                "isVodv": null,
+                "collectionInstructions": null,
+                "returnInstructions": {
+                    "returnToSender": false
+                },
+                "timeWindow": null,
+                "consignmentCount": null,
+                "consignments": null,
+                "eventCount": 5,
+                "trackingEvents": {
+                    "href": "/consignment/v2/articles/00393333042528103908?expand\u003darticles,events",
+                    "items": [
+                        {
+                            "id": "00393333042528103908",
+                            "code": "NSS-ER01",
+                            "on": "2024-04-17T03:44:04+10:00",
+                            "message": "In transit to next facility in DARRAWEIT GUIM VIC",
+                            "location": "MELBOURNE AIRPORT VIC, 3045",
+                            "workCentreId": "357675",
+                            "scanEvent": true
+                        },
+                        {
+                            "id": "00393333042528103908",
+                            "code": "NSS-ER42",
+                            "on": "2024-04-17T03:02:41+10:00",
+                            "message": "Item processed at facility",
+                            "location": "MELBOURNE VIC",
+                            "workCentreId": "357675",
+                            "scanEvent": true
+                        },
+                        {
+                            "id": "00393333042528103908",
+                            "code": "NSS-ER01",
+                            "on": "2024-04-16T20:45:13+10:00",
+                            "message": "In transit to next facility in TULLAMARINE VIC",
+                            "location": "GREENACRE NSW, 2190",
+                            "workCentreId": "223001",
+                            "scanEvent": true
+                        },
+                        {
+                            "id": "00393333042528103908",
+                            "code": "NSS-ER42",
+                            "on": "2024-04-16T20:16:37+10:00",
+                            "message": "Item processed at facility",
+                            "location": "SYDNEY NSW",
+                            "workCentreId": "223001",
+                            "scanEvent": true
+                        },
+                        {
+                            "id": "00393333042528103908",
+                            "code": "ADMIN-ER39",
+                            "on": "2024-04-16T16:35:34+10:00",
+                            "message": "Shipping information received by Australia Post",
+                            "location": null,
+                            "workCentreId": null,
+                            "scanEvent": false
+                        }
+                    ]
+                },
+                "href": "/consignment/v2/articles/00393333042528103908",
+                "id": "00393333042528103908",
+                "code": "00393333042528103908",
+                "isRegisteredByAP": true,
+                "isReceivedByAP": false,
+                "lastModifiedOn": "2024-04-16T17:44:23+00:00",
+                "dispatchedOn": "2024-04-15T23:49:16+00:00",
+                "etag": "943a0cfd51a1d626cc0c3264d48b3e25",
+                "isCarbonNeutral": false,
+                "service": {
+                    "productId": "2",
+                    "productType": "StarTrack",
+                    "subProductId": "710",
+                    "subProductType": "ST Fixed Price Premium"
+                },
+                "milestone": {
+                    "on": "2024-04-16T20:16:37+10:00",
+                    "name": "It\u0027s on its way",
+                    "description": null,
+                    "progressPercentage": 45
+                },
+                "expectedDelivery": {
+                    "on": "2024-04-18T00:00:00+00:00",
+                    "onChanged": true,
+                    "between": null
+                },
+                "destinationAddress": {
+                    "line1": null,
+                    "line2": null,
+                    "line3": null,
+                    "suburb": "WALLAN",
+                    "state": "VIC",
+                    "postcode": "3756",
+                    "countryCode": null,
+                    "deliveryPoint": null,
+                    "addressType": null
+                },
+                "deliveryInstructions": {
+                    "signatureOnDelivery": null,
+                    "redirect": {
+                        "status": "RD_STATUS_REQUEST_DISABLED",
+                        "redirectChange": {
+                            "allowed": false,
+                            "reasonCode": "RD_ELIG_DISALLOWED"
+                        }
+                    },
+                    "safeDrop": {
+                        "status": "SD_STATUS_INELIGIBLE",
+                        "location": null,
+                        "locationChange": {
+                            "allowed": false,
+                            "reasonCode": "SD_ELIG_DISALLOWED_SIG_REQUIRED"
+                        }
+                    }
+                },
+                "deliverySummary": null,
+                "receiver": null,
+                "sender": null,
+                "foundByTrackingReferences": null
+            }
+        ]
+    },
+    "href": "/consignment/v2/consignments/@UhcyXLoRP7hZI1rnzrB07huQecJCLvprdBbVO13g5uwvBH_kZmI\u003d",
+    "id": "UhcyXLoRP7hZI1rnzrB07huQecJCLvprdBbVO13g5uwvBH_kZmI\u003d",
+    "code": "M7ZZ18447229",
+    "isRegisteredByAP": true,
+    "isReceivedByAP": false,
+    "lastModifiedOn": "2024-04-16T17:44:23+00:00",
+    "dispatchedOn": "2024-04-16T06:45:03+00:00",
+    "etag": "943a0cfd51a1d626cc0c3264d48b3e25",
+    "isCarbonNeutral": false,
+    "service": {
+        "productId": "2",
+        "productType": "StarTrack",
+        "subProductId": "710",
+        "subProductType": "ST Fixed Price Premium"
+    },
+    "milestone": {
+        "on": "2024-04-16T20:16:37+10:00",
+        "name": "It\u0027s on its way",
+        "description": null,
+        "progressPercentage": 45
+    },
+    "expectedDelivery": {
+        "on": "2024-04-18T00:00:00+00:00",
+        "onChanged": true,
+        "between": null
+    },
+    "destinationAddress": {
+        "line1": null,
+        "line2": null,
+        "line3": null,
+        "suburb": "WALLAN",
+        "state": "VIC",
+        "postcode": "3756",
+        "countryCode": null,
+        "deliveryPoint": null,
+        "addressType": null
+    },
+    "deliveryInstructions": {
+        "signatureOnDelivery": null,
+        "redirect": {
+            "status": "RD_STATUS_REQUEST_DISABLED",
+            "redirectChange": {
+                "allowed": false,
+                "reasonCode": "RD_ELIG_DISALLOWED"
+            }
+        },
+        "safeDrop": {
+            "status": "SD_STATUS_INELIGIBLE",
+            "location": null,
+            "locationChange": {
+                "allowed": false,
+                "reasonCode": "SD_ELIG_DISALLOWED_SIG_REQUIRED"
+            }
+        }
+    },
+    "deliverySummary": null,
+    "receiver": null,
+    "sender": null,
+    "foundByTrackingReferences": null
+}
