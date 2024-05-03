@@ -1,8 +1,9 @@
 # importing required classes
 from pypdf import PdfReader
 
+file_path = 'G:\\My Drive\\Hamid\\20244301945430648FinalITGO.pdf'
 # creating a pdf reader object
-reader = PdfReader('Coles_17032024.pdf')
+reader = PdfReader(file_path)
 
 # printing number of pages in pdf file
 print(len(reader.pages))
@@ -12,3 +13,4 @@ print(len(reader.pages))
 for page in reader.pages:
     # extracting text from page
     print(page.extract_text())
+    break
