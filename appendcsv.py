@@ -1,6 +1,5 @@
 # Import writer class from csv module
 from csv import writer
-import csv
 
 
 # # List that we want to add as a new row
@@ -9,7 +8,7 @@ import csv
 def write_to_csv(data):
     # Open our existing CSV file in append mode
     # Create a file object for this file
-    with open('fbrlist2.csv', 'a') as f_object:
+    with open('fbrlist2.csv', 'w', encoding="utf-8") as f_object:
         # Pass this file object to csv.writer()
         # and get a writer object
         writer_object = writer(f_object, lineterminator="\n")

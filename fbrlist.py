@@ -11,7 +11,7 @@ def find_missing_serial_no(records_list):
     sr_no = 1
     missing = []
     for record in records_list:
-        if record[0] != sr_no:
+        while int(record[0]) != sr_no:
             missing.append(sr_no)
             sr_no += 1
         sr_no += 1
@@ -19,13 +19,13 @@ def find_missing_serial_no(records_list):
 
 
 def pdf_to_csv():
-    file_path = 'G:\\My Drive\\Hamid\\20244301945430648FinalITGO.pdf'
+    file_path = 'I:\\My Drive\\Hamid\\20244301945430648FinalITGO.pdf'
     # creating a pdf reader object
     reader = PdfReader(file_path)
 
     # printing number of pages in pdf file
     print(len(reader.pages))
-    pattern = r"^\b(\d+)\s(\d{13})\s([\w\s\.]+\-\w+)"
+    pattern = r"^\b(\d+)\s(\d{13})\s(.+)$"
     buffer = []
     buffer.extend(get_missing_records())
 
@@ -34,13 +34,16 @@ def pdf_to_csv():
         page_text = page.extract_text()
         matches = re.findall(pattern, page_text, re.MULTILINE)
         buffer.extend(matches)
-        if len(buffer) >= 2000:
+        if len(buffer) >= 506657:
             # write_to_csv(matches)
+            print('file reading complete.')
             print("Page: ", page_index)
             print("Records: ", len(buffer)+1)
             print(find_missing_serial_no(buffer))
             pprint(buffer[-1][1])
             break
+    buffer.extend(get_missing_records('fbrlastpage.txt'))
+    write_to_csv(buffer)
 
 
 if __name__ == "__main__":
