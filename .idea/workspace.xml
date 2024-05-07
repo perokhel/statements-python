@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a70e9420-b8b0-4c06-aa74-c3fc7c13d2a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/appendcsv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fbrfirstpage.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fbrlastpage.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fbrlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypdf2read.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfread.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdfread.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,25 +35,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.appendjson.executor": "Run",
-    "Python.datecalc.executor": "Run",
-    "Python.fbrlist.executor": "Run",
-    "Python.filerename.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.pdfread.executor": "Run",
-    "Python.pdftractions2.executor": "Run",
-    "Python.pdftransactions.executor": "Run",
-    "Python.pypdf2read.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.textread.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Hamid/PycharmProjects/pdfpython"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.appendjson.executor&quot;: &quot;Run&quot;,
+    &quot;Python.datecalc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fbrlist.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filerename.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pdfread.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pdftractions2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pdftransactions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pypdf2read.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.textread.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hamid/PycharmProjects/pdfpython&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Hamid\PycharmProjects\pdfpython" />
