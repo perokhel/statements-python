@@ -1,7 +1,16 @@
 import numpy as n
+
+s = ['I', 'want', 4, 'apples', 'and', 18, 'bananas']
+
+# using list comprehension
+listToStr = ' '.join(map(str, s))
+
+print(s, listToStr)
+
 arr1 = [1, 2, 3, 4]
 arr2 = [5, 6, 7, 8]
 arr3 = [9, 10, 11, 12]
+
 
 narr1 = n.array(arr1)
 narr2 = n.array(arr2)
