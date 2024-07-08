@@ -21,6 +21,6 @@ def write_to_csv(data):
         f_object.close()
 
 
-data = ["sdljfoiwerwe", "skdljfoiwe","assadfas,asjdflkjsd", ("234234", "234234234234", "Abdulãƒæ’Ã†Â€™Ãƒâ€ Ã¢Â‚¬Â„¢Ãƒæ’Ã¢Â‚¬Å¡Ã")]
+data = [[55,"Data", 3.553, "Metadata"], "skdljfoiwe","assadfas,asjdflkjsd", ("234234", "234234234234", "Abdulãƒæ’Ã†Â€™Ãƒâ€ Ã¢Â‚¬Â„¢Ãƒæ’Ã¢Â‚¬Å¡Ã")]
 
 write_to_csv(data)
